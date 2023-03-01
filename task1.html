@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Phudu&family=Work+Sans&display=swap" rel="stylesheet">	
+</head> 
+<body>
+	<form>
+		<h1 style="color:lavenderblush ;">SURVEY FORM</h1>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" placeholder="Enter your name">
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" placeholder="Enter your email">
+		<label for="age">Age:</label>
+		<input type="number" id="age" name="age" placeholder="Enter your age">
+		<label for="gender">Gender:</label>
+		<select id="gender" name="gender">
+			<option value="male">Male</option>
+			<option value="female">Female</option>
+			<option value="other">Other</option>
+		</select> 
+		<label for="feedback">Experience Feedback:</label>
+		<textarea id="feedback" name="feedback" placeholder="Enter your feedback"></textarea>
+		<input class="css-button-gradient--4" type="submit" value="Submit">
+	</form>
+</body>
+</html>
